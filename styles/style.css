@@ -1,28 +1,42 @@
+/* Page d'acceuil : */
+
 /* Titre : */
 
+
 .main-title {
-    font-family: 'Comic Relief', cursive; 
-    font-size: 64px;
+    font-family: 'TAN Headline', serif;
+    font-size: 100px;
     text-align: center;
     color: #0072ff;
-    margin-top: 300px; 
+    margin-top: 280px; 
 }
 
-/* Boutton : */
+@font-face {
+    font-family: 'TAN Headline';
+    src:
+         url('../fonts/TANHEADLINE-Regular.ttf') format('truetype');
+  }
+
+.nom{
+    font-family: 'Raleway', serif;
+    font-size: 50px;
+}
+
+/* Boutton projets : */
 
 .main-content {
     position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
-    bottom: 150px;
+    bottom: 20%;
 }
 
 .projets-button {
-    background: linear-gradient(90deg, #00c6ff, #0072ff); /* Dégradé de bleu */
+    background: #0072ff;
     border: none;
     border-radius: 30px;
-    padding: 14px 28px;
+    padding: 20px 30px;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -36,3 +50,32 @@
     box-shadow: 0px 6px 20px rgba(0, 114, 255, 0.6);
 }
 
+
+body{
+    background-color: #FFCDE8;
+}
+
+/* Images : */
+
+.nuage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+}
+
+.nuage2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    transform: rotate(180deg);
+}
+
+.etoile {
+    position: absolute;
+    width: 10%; 
+    bottom: 65%; 
+    left: 68%;
+    transform: translateX(-50%);
+}
