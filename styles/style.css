@@ -1,0 +1,38 @@
+/* Titre : */
+
+.main-title {
+    font-family: 'Comic Relief', cursive; 
+    font-size: 64px;
+    text-align: center;
+    color: #0072ff;
+    margin-top: 300px; 
+}
+
+/* Boutton : */
+
+.main-content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 150px;
+}
+
+.projets-button {
+    background: linear-gradient(90deg, #00c6ff, #0072ff); /* Dégradé de bleu */
+    border: none;
+    border-radius: 30px;
+    padding: 14px 28px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0px 4px 15px rgba(0, 114, 255, 0.3);
+}
+
+.projets-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 114, 255, 0.6);
+}
+
